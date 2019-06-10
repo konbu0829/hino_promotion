@@ -1,5 +1,7 @@
 body {
   background-color: #000;
+  width: 375px;
+  margin: 0 auto;
 }
 
 .content {
@@ -71,6 +73,20 @@ body {
   text-align: center;
   padding-top: 40px;
   padding-bottom: 40px;
+}
+
+.content--mokuji {
+  background-image: url(../images/mokuji.jpg);
+  width: 375px;
+}
+
+.content--mokuji li {
+  list-style: none;
+}
+
+.content--mokuji a {
+  text-decoration: none;
+  color: #fff;
 }
 
 .content--second {
