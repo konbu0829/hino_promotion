@@ -1,0 +1,239 @@
+body {
+  background-color: #000;
+}
+
+.content {
+  background-attachment: fixed;
+  background-position: top center;
+  background-repeat: no-repeat;
+  width: 375px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.content article, .content small {
+  margin: auto;
+  width: 375px;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.8);
+  box-sizing: border-box;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+  color: #fff;
+  align-items: center;
+}
+
+.content--marker--pink {
+  background: linear-gradient(transparent 0, #ff66ff 60%);
+}
+
+.content--marker--yellow_green {
+  background: linear-gradient(transparent 0, #66FFCC 60%);
+}
+
+.content h1 {
+  font-size: 2em;
+}
+
+.content h2 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+  line-height: 1.3em;
+}
+
+.content h3 {
+  font-size: 1.3em;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+
+.content p {
+  font-size: 1em;
+  line-height: 1.5em;
+  padding: 5px 20px;
+}
+
+.content ul {
+  padding: 5px 20px;
+}
+
+.content li {
+  font-size: 1em;
+  line-height: 2em;
+}
+
+.content--first {
+  background-image: url(../images/hino_2.jpg);
+  width: 375px;
+  height: 667px;
+}
+
+.content--first h1 {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.content--second {
+  background-image: url(../images/japan.jpg);
+  width: 375px;
+  height: 667px;
+}
+
+.content--second img {
+  width: 315px;
+  margin-top: 1em;
+}
+
+.content--third {
+  background-image: url(../images/field.jpg);
+  width: 375px;
+  height: 667px;
+}
+
+.content--fourth {
+  background-image: url(../images/kokkai.jpg);
+  width: 375px;
+  height: 667px;
+}
+
+.content--fourth img {
+  width: 150px;
+  margin: 1em 0;
+}
+
+.content--fifth {
+  background-image: url(../images/maturi.jpg);
+  width: 375px;
+  height: 667px;
+}
+
+.content--sixth {
+  background-image: url(../images/ziko.jpg);
+  width: 375px;
+  height: 667px;
+}
+
+.content--seventh {
+  background-image: url(../images/toshizo.jpg);
+  width: 375px;
+  height: 667px;
+}
+
+.content--eighth {
+  background-image: url(../images/keio-line.jpg);
+  width: 375px;
+  height: 667px;
+}
+
+.content--eighth li {
+  list-style: none;
+}
+
+.content--nineth {
+  background-image: url(../images/hureai-back.jpg);
+  width: 375px;
+  height: 667px;
+}
+
+.content--nineth img {
+  width: 315px;
+}
+
+.content--tenth {
+  background-image: url(../images/zoo.jpg);
+  width: 375px;
+  height: 667px;
+}
+
+.content--eleventh {
+  background-image: url(../images/asakawa.jpg);
+  width: 375px;
+  height: 667px;
+}
+
+.content--contact {
+  background-color: #fff;
+}
+
+.content--contact form {
+  margin: 0 auto;
+  width: 300px;
+  height: 450px;
+  border: 1px solid #CCC;
+  border-radius: 5px;
+  text-align: center;
+  font-family: serif;
+}
+
+.content--contact .top {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  line-height: 20px;
+}
+
+.content--contact form div + div {
+  margin-top: 10px;
+}
+
+.content--contact label {
+  display: inline-block;
+  width: 120px;
+  text-align: right;
+  font-size: 0.8em;
+}
+
+.content--contact input {
+  font: 0.8em sans-serif;
+  width: 150px;
+  box-sizing: border-box;
+  border: 1px solid #eee;
+  background: #eee;
+  border-radius: 3px;
+}
+
+textarea {
+  font: 0.8em sans-serif;
+  width: 150px;
+  box-sizing: border-box;
+  border: 1px solid #eee;
+  background: #eee;
+  border-radius: 3px;
+}
+
+.content--contact textarea {
+  vertical-align: top;
+  height: 100px;
+  resize: vertical;
+}
+
+.content--contact .vow {
+  margin: 20px auto 20px auto;
+  text-align: center;
+  line-height: 20px;
+  font-size: 0.7em;
+}
+
+.content--contact .button {
+  margin: 0 auto;
+  width: 70px;
+  font-size: 14px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 3px 0;
+  color: #fff;
+  background-color: #999;
+  border-radius: 5px;
+}
+
+.content--footer {
+  background-color: darkgrey;
+  width: 375px;
+  height: 76px;
+  position: relative;
+}
+
+.content--footer small {
+  position: absolute;
+  bottom: 0;
+}
